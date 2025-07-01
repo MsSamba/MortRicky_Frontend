@@ -7,7 +7,7 @@ import ResultsComponent from "./components/ResultsComponent"
 import LoadingSpinner from "./components/LoadingSpinner"
 import "./App.css"
 
-const API_BASE_URL = "http://localhost:8000"
+const API_BASE_URL = "https://mortricky-backend-1.onrender.com"
 
 function App() {
   const [currentView, setCurrentView] = useState("home") // 'home', 'quiz', 'results'
@@ -152,7 +152,7 @@ function App() {
               </div>
 
               <div className="mt-8 text-sm text-gray-500">
-                <p>💡 Tip: Make sure the Python backend is running on port 8000</p>
+                {/* <p>💡 Tip: Make sure the Python backend is running on port 8000</p> */}
               </div>
             </div>
           )}
