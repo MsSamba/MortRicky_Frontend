@@ -151,9 +151,9 @@ function App() {
                 </button>
               </div>
 
-              <div className="mt-8 text-sm text-gray-500">
-                {/* <p>💡 Tip: Make sure the Python backend is running on port 8000</p> */}
-              </div>
+              {/* <div className="mt-8 text-sm text-gray-500">
+                <p>💡 Tip: Make sure the Python backend is running on port 8000</p>
+              </div> */}
             </div>
           )}
 
