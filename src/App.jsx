@@ -7,7 +7,7 @@ import ResultsComponent from "./components/ResultsComponent"
 import LoadingSpinner from "./components/LoadingSpinner"
 import "./App.css"
 
-const API_BASE_URL = "https://mortricky-backend-1.onrender.com"
+const API_BASE_URL = "http://localhost:8000"
 
 function App() {
   const [currentView, setCurrentView] = useState("home") // 'home', 'quiz', 'results'
