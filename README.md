@@ -45,7 +45,7 @@ pip install fastapi uvicorn beautifulsoup4 requests
 ### 2. Generate Quiz Data
 
 \`\`\`bash
-# Run the scraper to generate mock data
+# Run the scraper to scrape Wikipedia
 python scripts/scraper.py
 
 # Generate quiz questions
